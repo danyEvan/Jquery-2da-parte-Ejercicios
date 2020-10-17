@@ -1,0 +1,33 @@
+
+
+
+.galeria{
+    margin: .4rem;
+    height: auto;
+    margin-bottom: .5rem;
+    border-radius: .8rem;
+    background-color: ghostwhite;
+    padding: 0%;
+    /*box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.8);*/
+}
+img{
+   height: 100%;
+   width: 100%;
+   border-radius: .8rem;
+    
+}
+#section{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    height: 85vh;
+    width: auto;
+    padding: 1rem;
+   
+
+}
+
+footer{
+    background-color:#5dcf78;
+    height: 20vh;
+    width: 100%;
+}
