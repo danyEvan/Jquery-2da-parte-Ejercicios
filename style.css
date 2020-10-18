@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 body{
     height: 130vh;
 }
@@ -68,4 +69,8 @@ span:hover{
     color: rgb(25, 165, 71);
 }
 
+.box{
+    font-size: 2rem;
+    font-family: 'Amatic SC', cursive;
+}
 
