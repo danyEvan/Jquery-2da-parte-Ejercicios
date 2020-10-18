@@ -1,13 +1,19 @@
-
+body{
+    height: 130vh;
+}
 
 
 .galeria{
     margin: .4rem;
-    height: auto;
+    height: 26rem;
+    width: auto;
     margin-bottom: .5rem;
     border-radius: .8rem;
-    background-color: ghostwhite;
+    background-color: #e2f2ff;
     padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /*box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.8);*/
 }
 img{
@@ -26,8 +32,40 @@ img{
 
 }
 
-footer{
-    background-color:#5dcf78;
-    height: 20vh;
-    width: 100%;
+#verMas{
+    color: white;
+    background-color: rgb(21, 189, 77);
 }
+
+div.panel,p.sobreLaEmpresa{
+line-height: 8vh;
+margin:auto;
+font-size:16px;
+padding: 1rem;;
+text-align:left;
+background:rgb(21, 189, 77);
+border:solid 1px rgb(196, 209, 16);
+color:#ffffff;
+border-radius:3px;
+}
+
+div.panel{
+display:none;
+}
+span{
+    padding: 1rem;
+    border:solid 1px rgb(196, 209, 16);
+    color:   rgb(196, 209, 16);
+    border-radius:3px;
+    font-weight: 500;
+    cursor:pointer;
+    transition: 0.5s;
+}
+
+span:hover{
+    transition: 0.6s;
+    background-color:  rgb(196, 209, 16);
+    color: rgb(25, 165, 71);
+}
+
+
